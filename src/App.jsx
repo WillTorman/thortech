@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,25 +9,30 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <h2>
+          Thortech LLC
+        </h2>
+      </div>
+      <div>
+        <img src="/images/white-logo.png" alt='Thortech Logo' />
+      </div>
+      <h1>All Your Website Needs</h1>
+      <div className='socials'>
+        <a href="#" target="_blank">
+          <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="#" target="_blank">
+          <FontAwesomeIcon icon={faSquareFacebook} />
+        </a>
+        <a href="https://www.youtube.com/@Thortech117" target="_blank">
+          <FontAwesomeIcon icon={faYoutube} />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <footer>
+        <hr></hr>
+        <a href='#'>Hire Me</a>
+        <a href='#'>Contact Me</a>
+      </footer>
     </>
   )
 }
