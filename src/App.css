@@ -40,3 +40,31 @@
 a {
   padding: 5px;
 }
+
+/* header */
+header {
+  display: grid;
+  grid-template-columns: 110px 1fr 1fr;
+}
+
+header h1 {
+  grid-column: 2/3;
+}
+
+header a {
+  grid-column: 3/3;
+  justify-self: end;
+  align-self: center;
+}
+
+#logo {
+  max-width: 100px;
+  border-radius: 10px;
+}
+
+/* body */
+
+/* footer */
+footer a {
+  padding: 100px;
+}

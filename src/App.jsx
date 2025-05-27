@@ -6,24 +6,36 @@ import {
   faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import logo from "/images/white-hammer.png";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <header>
+        <img id="logo" src={logo} alt="Thortech Logo" />
+        <h1>Thortech</h1>
+        <a href="#">Contact Us</a>
+      </header>
+      <div className="examples">
+        <h1>All your website needs</h1>
+      </div>
+      <div className="reviews">
+        <h1>What people say</h1>
+        {/* jsx here */}
+      </div>
       <div>
         <h2>Thortech LLC</h2>
       </div>
-      <div>
-        <img src="/images/white-logo.png" alt="Thortech Logo" />
-      </div>
-      <h1>All Your Website Needs</h1>
       <div className="socials">
         <a href="#" target="_blank">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href="#" target="_blank">
+        <a
+          href="https://www.facebook.com/profile.php?id=61576092674965"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faSquareFacebook} />
         </a>
         <a href="https://www.youtube.com/@Thortech117" target="_blank">
@@ -32,8 +44,8 @@ function App() {
       </div>
       <footer>
         <hr></hr>
-        <a href="#">Hire Me</a>
-        <a href="#">Contact Me</a>
+        <a href="#">Hire Us</a>
+        <a href="#">Contact Us</a>
       </footer>
     </>
   );
