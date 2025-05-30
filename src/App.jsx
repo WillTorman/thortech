@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import ContactForm from "./components/modals/ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSquareFacebook,
@@ -9,7 +10,7 @@ import {
 import logo from "/images/white-hammer.png";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <>
@@ -45,7 +46,8 @@ function App() {
       <footer>
         <hr></hr>
         <a href="#">Hire Us</a>
-        <a href="#">Contact Us</a>
+        <a href="#" onClick={() => {setOpenModal(true);}} >Contact Us</a>
+        {openModal && <ContactForm closeModal={setOpenModal}/>}
       </footer>
     </>
   );

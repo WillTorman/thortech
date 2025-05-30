@@ -1,0 +1,12 @@
+/* Contact Form Modal Styling */
+
+.contact {
+    background-color: #7845f0aa;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.contact h1 {
+    font-size: 30px;
+    padding: 10px;
+}
