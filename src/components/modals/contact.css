@@ -1,12 +1,29 @@
 /* Contact Form Modal Styling */
 
 .contact {
+    display: grid;
     background-color: #7845f0aa;
     border-radius: 10px;
     max-width: 600px;
 }
 
+/* Header */
+.contact .header {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
 .contact h1 {
     font-size: 30px;
     padding: 10px;
+}
+
+button {
+    max-width: 50px;
+    max-height: 40px;
+}
+
+/* Body */
+.contactInfo {
+    display: flex;
 }
