@@ -17,7 +17,7 @@ function App() {
       <header>
         <img id="logo" src={logo} alt="Thortech Logo" />
         <h1>Thortech</h1>
-        <a href="#">Contact Us</a>
+        <a href="#" onClick={() => {setOpenModal(true);}}>Contact Us</a>
       </header>
       <div className="examples">
         <h1>All your website needs</h1>
