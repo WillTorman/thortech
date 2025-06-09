@@ -17,7 +17,14 @@ function App() {
       <header>
         <img id="logo" src={logo} alt="Thortech Logo" />
         <h1>Thortech</h1>
-        <a href="#" onClick={() => {setOpenModal(true);}}>Contact Us</a>
+        <a
+          href="#"
+          onClick={() => {
+            setOpenModal(true);
+          }}
+        >
+          Contact Us
+        </a>
       </header>
       <div className="examples">
         <h1>All your website needs</h1>
@@ -30,24 +37,31 @@ function App() {
         <h2>Thortech LLC</h2>
       </div>
       <div className="socials">
-        <a href="#" target="_blank">
+        <a id="ig" href="#" target="_blank">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
         <a
-          href="https://www.facebook.com/profile.php?id=61576092674965"
+          id="fb" href="https://www.facebook.com/profile.php?id=61576092674965"
           target="_blank"
         >
           <FontAwesomeIcon icon={faSquareFacebook} />
         </a>
-        <a href="https://www.youtube.com/@Thortech117" target="_blank">
+        <a id="yt" href="https://www.youtube.com/@Thortech117" target="_blank">
           <FontAwesomeIcon icon={faYoutube} />
         </a>
       </div>
       <footer>
         <hr></hr>
         <a href="#">Hire Us</a>
-        <a href="#" onClick={() => {setOpenModal(true);}} >Contact Us</a>
-        {openModal && <ContactForm closeModal={setOpenModal}/>}
+        <a
+          href="#"
+          onClick={() => {
+            setOpenModal(true);
+          }}
+        >
+          Contact Us
+        </a>
+        {openModal && <ContactForm closeModal={setOpenModal} />}
       </footer>
     </>
   );

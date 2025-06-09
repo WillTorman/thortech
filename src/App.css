@@ -28,6 +28,7 @@ a {
   padding: 10px;
 }
 
+
 /* header */
 header {
   display: grid;
@@ -53,7 +54,21 @@ header a {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
+
 /* body */
+
+#ig:hover {
+  filter: drop-shadow(0 0 .5em #06f596);
+}
+
+#fb:hover {
+  filter: drop-shadow(0 0 .5em #06f596);
+}
+
+#yt:hover {
+  filter: drop-shadow(0 0 .5em #06f596);
+}
+
 
 /* footer */
 footer a {
