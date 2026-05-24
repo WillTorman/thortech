@@ -173,7 +173,7 @@ export default function LandingPage() {
               earnings, and giving users real-time insight into their income.
             </p>
             <a
-              href="https://willtorman.github.io/clockr/"
+              href="https://play.google.com/store/apps/details?id=com.thortech.clockr&hl=en"
               target="blank_"
               style={{ color: "var(--color-primary)" }}
             >
