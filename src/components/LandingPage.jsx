@@ -71,6 +71,7 @@ export default function LandingPage() {
         data-animate
       >
         <h2 id="services-title">Our Services</h2>
+        {/* Web app dev card */}
         <div className="services-grid">
           <div className="service-card" data-animate>
             <div className="service-icon" aria-hidden="true">
@@ -79,6 +80,7 @@ export default function LandingPage() {
             <h3>Web Application Development</h3>
             <p>Modern, scalable web apps tailored to your business needs.</p>
           </div>
+          {/* Mobile dev card */}
           <div className="service-card" data-animate>
             <div className="service-icon" aria-hidden="true">
               📱
@@ -86,7 +88,7 @@ export default function LandingPage() {
             <h3>Mobile App Development</h3>
             <p>Cross-platform mobile solutions for iOS and Android.</p>
           </div>
-          <div className="service-card" data-animate>
+          {/* <div className="service-card" data-animate>
             <div className="service-icon" aria-hidden="true">
               ⚙️
             </div>
@@ -99,7 +101,8 @@ export default function LandingPage() {
             </div>
             <h3>API Development & Integration</h3>
             <p>Robust APIs and seamless integrations for your ecosystem.</p>
-          </div>
+          </div> */}
+          {/* UI design card */}
           <div className="service-card" data-animate>
             <div className="service-icon" aria-hidden="true">
               🎨
@@ -107,12 +110,21 @@ export default function LandingPage() {
             <h3>UI/UX Design</h3>
             <p>Intuitive, beautiful interfaces that delight users.</p>
           </div>
+          {/* Software Consulting Card */}
           <div className="service-card" data-animate>
             <div className="service-icon" aria-hidden="true">
               🧠
             </div>
             <h3>Software Consulting</h3>
             <p>Expert advice to guide your software strategy and execution.</p>
+          </div>
+          {/* Custom PC Building Card */}
+          <div className="service-card" data-animate>
+            <div className="service-icon" aria-hidden="true">
+              🖥️
+            </div>
+            <h3>Custom PC Building</h3>
+            <p>Custom PCs tailored for gaming, work, or any other purpose you desire.</p>
           </div>
         </div>
       </section>
