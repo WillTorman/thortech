@@ -5,16 +5,16 @@
 */
 
 :root {
-  --color-bg: #10141a;
-  --color-bg-alt: #181e27;
-  --color-primary: #00c6fb;
-  --color-secondary: #1e90ff;
-  --color-accent: #f9f871;
-  --color-text: #f4f7fa;
-  --color-muted: #a0aec0;
-  --color-card: #171c23;
+  --color-bg: #000000;
+  --color-bg-alt: #111111;
+  --color-primary: #22c55e;
+  --color-secondary: #16a34a;
+  --color-accent: #bbf7d0;
+  --color-text: #ffffff;
+  --color-muted: #cbd5e1;
+  --color-card: #171717;
   --radius: 12px;
-  --shadow: 0 4px 24px 0 rgba(0,0,0,0.18);
+  --shadow: 0 4px 24px 0 rgba(0,0,0,0.28);
   --transition: 0.2s cubic-bezier(.4,0,.2,1);
 }
 
@@ -70,7 +70,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(120deg, #10141a 60%, #1e293b 100%);
+  background: linear-gradient(120deg, #000000 60%, #0f2418 100%);
   padding-bottom: 5rem;
   min-height: 100vh;
   display: flex;
@@ -112,12 +112,12 @@ body {
 }
 .btn-primary {
   background: var(--color-primary);
-  color: #10141a;
+  color: #000000;
   box-shadow: var(--shadow);
 }
 .btn-primary:hover {
   background: var(--color-secondary);
-  color: #fff;
+  color: #ffffff;
 }
 .btn-secondary {
   background: transparent;
