@@ -46,7 +46,7 @@ export default function LandingPage() {
           </ul>
         </nav>
         <div className="hero-content">
-          <h1>Custom Software Solutions That Power Your Vision</h1>
+          <h1>Software Solutions & PC Builds That Power Your Vision</h1>
           <p className="subtitle">
             We build high-performance web, mobile, and business software for
             startups and enterprises. Quality, transparency, and scalability at
